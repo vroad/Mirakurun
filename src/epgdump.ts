@@ -42,7 +42,7 @@ if (fs.existsSync(dest) === true && force === false) {
 process.env.SERVER_CONFIG_PATH = path.resolve(__dirname, "../config/server.yml");
 process.env.PROGRAMS_DB_PATH = dest;
 
-import { TsStream } from "@chinachu/aribts";
+import { TsStream } from "@vroad_x/aribts";
 import _ from "./Mirakurun/_";
 import Event from "./Mirakurun/Event";
 import Program from "./Mirakurun/Program";

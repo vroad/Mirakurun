@@ -15,7 +15,7 @@
 */
 import { Writable } from "stream";
 import EventEmitter = require("eventemitter3");
-import { TsStreamLite, TsCrc32, TsChar, TsLogo, tsDataModule } from "@chinachu/aribts";
+import { TsStreamLite, TsCrc32, TsChar, TsLogo, tsDataModule } from "@vroad_x/aribts";
 import { StreamInfo, getTimeFromMJD } from "./common";
 import * as log from "./log";
 import EPG from "./EPG";

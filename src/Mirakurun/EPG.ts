@@ -17,8 +17,8 @@ import { getProgramItemId } from "./Program";
 import { getTimeFromMJD, getTimeFromBCD24 } from "./common";
 import * as db from "./db";
 import _ from "./_";
-import { TsChar } from "@chinachu/aribts";
-import { EIT } from "@chinachu/aribts/lib/table/eit";
+import { TsChar } from "@vroad_x/aribts";
+import { EIT } from "@vroad_x/aribts/lib/table/eit";
 
 const STREAM_CONTENT = {
     1: "mpeg2",
