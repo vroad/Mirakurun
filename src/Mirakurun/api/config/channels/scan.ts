@@ -271,10 +271,7 @@ export const put: Operation = async (req, res) => {
                 channel: channel
             });
         } catch (e) {
-            res.write("-> no signal.");
-            if (/stream has closed before get network/.test(e) === false) {
-                res.write(` [${e}]`);
-            }
+            res.write(` [${e}]`);
             res.write("\n\n");
             continue;
         }
